@@ -8,4 +8,9 @@ function App() {
   )
 }
 
+// function to simulate load times
+function wait(duration: number) {
+  return new Promise(resolve => setTimeout(resolve, duration))
+}
+
 export default App
